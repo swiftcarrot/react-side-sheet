@@ -1,0 +1,25 @@
+{
+  "name": "@xkit/side-sheet",
+  "version": "0.1.2",
+  "description": "SideSheet component",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@emotion/core": "^10.0.14",
+    "@xkit/dialog": "^0.2.16"
+  },
+  "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me/)",
+  "license": "MIT"
+}
