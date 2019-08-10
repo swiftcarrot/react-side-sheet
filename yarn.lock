@@ -130,10 +130,10 @@
   resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.2.3.tgz#820f6a6af4301b4c5065cfc04bb89e6a3d1d723f"
   integrity sha512-zM9rA8jDchr05giMhL95dPeYkK67cBQnIhCVrOKKqgWGsv+2GE/HZqeptvU4zqs0BvIqsThwov+YxVNVh5csTQ==
 
-"@swiftcarrot/utils@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@swiftcarrot/utils/-/utils-0.2.0.tgz#8d85951f32527a27ea065c7967f6e952760ec641"
-  integrity sha512-a20RzhfMeFT7swz7hjdOtRatKAQpuKGgM0T3uJslZNYBKV6jGKAf7b6WpaRsfH6WIdoOqtW2nBADd5/1Ub80zQ==
+"@swiftcarrot/utils@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@swiftcarrot/utils/-/utils-0.2.1.tgz#46a174a30603cb26a6d49ba67b6f89375642dd23"
+  integrity sha512-ihfCnWnDZaIbXEALixDZmnenmJYJhAim017EwgI05er9kEsrcqCF/KeBfEXAbZwI7ZtJZj8AxqNIo42JZe2szQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     lodash "^4.17.15"
@@ -165,15 +165,15 @@
     "@emotion/core" "^10.0.14"
     "@xkit/spinner" "^0.2.3"
 
-"@xkit/dialog@^0.2.18":
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.18.tgz#4270739ba9d684b08cb80d690469621aa1b9302e"
-  integrity sha512-dA3kjKHeeHzuZnYJ1Ne797pT0k0zRKIut8Uqxi4QGTN1RZwPjKMNjT3mGYLfG81qyIU6AOM0eV++wDGqJbNNrw==
+"@xkit/dialog@^0.2.19":
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.19.tgz#64e6800c30e7ea6259901d0fcc48880aebdabdf8"
+  integrity sha512-H4EJjtC3sTQ/ylD6zwLPFbgWDnsACOGfhEEVNpEkl/PgUfewsYCZ4COvS9xhboCoj1/rKsUXvTdnjMGTLRE4uw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"
     "@reach/dialog" "^0.2.9"
-    "@swiftcarrot/utils" "^0.2.0"
+    "@swiftcarrot/utils" "^0.2.1"
     "@xkit/button" "^0.3.12"
     "@xkit/spring" "^0.1.2"
 
