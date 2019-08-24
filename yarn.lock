@@ -130,15 +130,6 @@
   resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.2.3.tgz#820f6a6af4301b4c5065cfc04bb89e6a3d1d723f"
   integrity sha512-zM9rA8jDchr05giMhL95dPeYkK67cBQnIhCVrOKKqgWGsv+2GE/HZqeptvU4zqs0BvIqsThwov+YxVNVh5csTQ==
 
-"@swiftcarrot/utils@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@swiftcarrot/utils/-/utils-0.2.1.tgz#46a174a30603cb26a6d49ba67b6f89375642dd23"
-  integrity sha512-ihfCnWnDZaIbXEALixDZmnenmJYJhAim017EwgI05er9kEsrcqCF/KeBfEXAbZwI7ZtJZj8AxqNIo42JZe2szQ==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    lodash "^4.17.15"
-    qss "^2.0.3"
-
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -165,17 +156,17 @@
     "@emotion/core" "^10.0.14"
     "@xkit/spinner" "^0.2.3"
 
-"@xkit/dialog@^0.2.20":
-  version "0.2.20"
-  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.20.tgz#20979c4bd29685466c3ddeb01ecfbb4d084301d6"
-  integrity sha512-FEu1ZPI0e6EtS0wkj5I2iwHu4zY14Omh3MH1LegutBAG4s4fsNP1wo4eGPyGXhtxa/tzdu2fjYJgYF+DNGjDqw==
+"@xkit/dialog@^0.2.21":
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.21.tgz#8a47bb130ceb9b09ecaedc0634ef84aae9774893"
+  integrity sha512-C4q7YVECAStViskOQjRSIJvbbmF10sVJWkaRI1zTGgRZfw1aeVP6dK6hRHCk4dRWRTu/E23cLSzd/5GARIPhkQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"
     "@reach/dialog" "^0.2.9"
-    "@swiftcarrot/utils" "^0.2.1"
     "@xkit/button" "^0.3.13"
     "@xkit/spring" "^0.1.2"
+    frontend-fns "^0.2.2"
 
 "@xkit/spinner@^0.2.3":
   version "0.2.3"
@@ -314,6 +305,15 @@ focus-lock@^0.6.3:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/focus-lock/-/focus-lock-0.6.5.tgz#f6eb37832a9b1b205406175f5277396a28c0fce1"
   integrity sha512-i/mVBOoa9o+tl+u9owOJUF8k8L85odZNIsctB+JAK2HFT8jckiBwmk+3uydlm6FN8czgnkIwQtBv6yyAbrzXjw==
+
+frontend-fns@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/frontend-fns/-/frontend-fns-0.2.2.tgz#58125e82d8d30be2f0277ab9aeb9f0e3cc2b8137"
+  integrity sha512-Vi7iza/AYBSPSpCXUxwt6RuQXaFbBMheGtg0uYVdtgsvKrWIL7BIhLb0/oM6IjsQJ5/FqfyTPF8PsQIasDCWzg==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    lodash "^4.17.15"
+    qss "^2.0.3"
 
 import-fresh@^2.0.0:
   version "2.0.0"
