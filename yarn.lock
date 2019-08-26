@@ -156,17 +156,17 @@
     "@emotion/core" "^10.0.14"
     "@xkit/spinner" "^0.2.3"
 
-"@xkit/dialog@^0.2.21":
-  version "0.2.21"
-  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.21.tgz#8a47bb130ceb9b09ecaedc0634ef84aae9774893"
-  integrity sha512-C4q7YVECAStViskOQjRSIJvbbmF10sVJWkaRI1zTGgRZfw1aeVP6dK6hRHCk4dRWRTu/E23cLSzd/5GARIPhkQ==
+"@xkit/dialog@^0.2.22":
+  version "0.2.22"
+  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.22.tgz#070e90322886fde657bbb74ce20c3994bb2f93c8"
+  integrity sha512-ArnJIt9XpwGQISW4Qimdb5po+6Y0OFHgRu7PlK0meC7+OJClQJ5/XQ+2ApXKtkDE46Y/wpG25WfGx+4M71JBVg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"
     "@reach/dialog" "^0.2.9"
     "@xkit/button" "^0.3.13"
     "@xkit/spring" "^0.1.2"
-    frontend-fns "^0.2.2"
+    frontend-fns "^0.2.3"
 
 "@xkit/spinner@^0.2.3":
   version "0.2.3"
@@ -306,10 +306,10 @@ focus-lock@^0.6.3:
   resolved "https://registry.yarnpkg.com/focus-lock/-/focus-lock-0.6.5.tgz#f6eb37832a9b1b205406175f5277396a28c0fce1"
   integrity sha512-i/mVBOoa9o+tl+u9owOJUF8k8L85odZNIsctB+JAK2HFT8jckiBwmk+3uydlm6FN8czgnkIwQtBv6yyAbrzXjw==
 
-frontend-fns@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/frontend-fns/-/frontend-fns-0.2.2.tgz#58125e82d8d30be2f0277ab9aeb9f0e3cc2b8137"
-  integrity sha512-Vi7iza/AYBSPSpCXUxwt6RuQXaFbBMheGtg0uYVdtgsvKrWIL7BIhLb0/oM6IjsQJ5/FqfyTPF8PsQIasDCWzg==
+frontend-fns@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/frontend-fns/-/frontend-fns-0.2.3.tgz#7a8ac63d18e672c1eb8ac78b64d6dfcd76a6255a"
+  integrity sha512-PSZwEIxljol/qKOgf43j05BzO5exX94MWuDRaPAxU2N2gKKp6keJukmGFbGLfZEXOilwmxzEiD/1GfVoiaev4A==
   dependencies:
     "@babel/runtime" "^7.5.5"
     lodash "^4.17.15"
