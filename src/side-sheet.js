@@ -2,10 +2,22 @@
 import { jsx } from '@emotion/core';
 import Dialog from '@xkit/dialog';
 
-const SideSheet = ({ children, ...props }) => {
+const SideSheet = ({ children, components: { Dialog }, ...props }) => {
   return (
     <Dialog
       styles={{
+        transitionConfig: {
+          spring: {
+            from: { opacity: 0, x: 100 },
+            enter: { opacity: 1, x: 0 },
+            leave: { opacity: 0, x: 100 },
+            config: { friction: 25, tension: 250, clamp: true }
+          },
+          overlay: ({ opacity }) => ({ opacity }),
+          dialog: ({ x }) => ({
+            transform: x.interpolate(s => `translateX(${s}%)`)
+          })
+        },
         dialog: {
           position: 'fixed',
           right: 0,
@@ -20,21 +32,17 @@ const SideSheet = ({ children, ...props }) => {
           outline: 'none'
         }
       }}
-      transition={{
-        from: { opacity: 0, x: 100 },
-        enter: { opacity: 1, x: 0 },
-        leave: { opacity: 0, x: 100 },
-        config: { friction: 25, tension: 250, clamp: true }
-      }}
-      overlayStyle={({ opacity }) => ({ opacity })}
-      dialogStyle={({ x }) => ({
-        transform: x.interpolate(s => `translateX(${s}%)`)
-      })}
       {...props}
     >
       {children}
     </Dialog>
   );
+};
+
+SideSheet.defaultProps = {
+  components: {
+    Dialog
+  }
 };
 
 export default SideSheet;
