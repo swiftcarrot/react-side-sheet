@@ -147,24 +147,24 @@
   dependencies:
     "@types/node" "*"
 
-"@xkit/button@^0.3.16":
-  version "0.3.16"
-  resolved "https://registry.yarnpkg.com/@xkit/button/-/button-0.3.16.tgz#070c49ed23e9ab8e634a6471ed10bcbaf0dba32d"
-  integrity sha512-tnZbOJ4crnoZDhUNfKr1LkBeSwZY9/NJhZ814Y+0UJHmMcGcKH6imZ748Zy/7rreACvIXPMZSo2G8F1U9qPWEw==
+"@xkit/button@^0.3.17":
+  version "0.3.17"
+  resolved "https://registry.yarnpkg.com/@xkit/button/-/button-0.3.17.tgz#238f85a19e7aa5383d8c0d0716fd02fd6caca627"
+  integrity sha512-jUCSechVD3CDmgk0qJJKVs6YtR+8H7AKX7J3ELSGWFrsbljiPEALqxS8LlSORl0CLCeXAcDIQ9lSg4t6MwgOGQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"
     "@xkit/spinner" "^0.3.0"
 
-"@xkit/dialog@^0.2.25":
-  version "0.2.25"
-  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.25.tgz#dd1b23dab8c6ab5f9cdc94d505275274e9d03faa"
-  integrity sha512-hL2N1JDQ4NUK7tTIgdWCaeqggjrtK1JXmT49vrsvBsF4UwNfLxJLbbQ0GmhWNAplMBUNABDkubbdNAQfS50v/w==
+"@xkit/dialog@^0.2.26":
+  version "0.2.26"
+  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.26.tgz#faf8225a0ca93af002af0e58b591e6fb1317cc68"
+  integrity sha512-DuDDJ5fV4+LRfaM/EJ79VGqc5t+FrVvXSuh8DA7M52WVNBGxYm9xLiQ4wnhYx6F39ChYpfXhG0FgO5nQ83M7JQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"
     "@reach/dialog" "^0.2.9"
-    "@xkit/button" "^0.3.16"
+    "@xkit/button" "^0.3.17"
     "@xkit/spring" "^0.1.2"
     frontend-fns "^0.2.3"
 
