@@ -156,10 +156,10 @@
     "@emotion/core" "^10.0.14"
     "@xkit/spinner" "^0.3.0"
 
-"@xkit/dialog@^0.2.26":
-  version "0.2.26"
-  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.26.tgz#faf8225a0ca93af002af0e58b591e6fb1317cc68"
-  integrity sha512-DuDDJ5fV4+LRfaM/EJ79VGqc5t+FrVvXSuh8DA7M52WVNBGxYm9xLiQ4wnhYx6F39ChYpfXhG0FgO5nQ83M7JQ==
+"@xkit/dialog@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@xkit/dialog/-/dialog-0.2.27.tgz#5d9701c6a3ad185343bcf719233725cdb9fc2443"
+  integrity sha512-LTZIDaXygVwpKzM2Xawu4BkjUp1bqKsdSrj25Kd9ckiyi1sk6QKRI0oEd1zLPJpMEISd1/0OaWLT11UWreEmJA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/core" "^10.0.14"

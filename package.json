@@ -1,6 +1,6 @@
 {
   "name": "react-side-sheet",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "SideSheet component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -18,7 +18,7 @@
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "@emotion/core": "^10.0.14",
-    "@xkit/dialog": "^0.2.26"
+    "@xkit/dialog": "^0.2.27"
   },
   "author": "Wang Zuo <wangzuo@swiftcarrot.com> (https://swiftcarrot.com)",
   "license": "MIT",
